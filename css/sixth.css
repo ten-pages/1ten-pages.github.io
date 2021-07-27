@@ -13,7 +13,6 @@ a{
 
 
 .sixth{
-
     width: 100%;
     height: auto;
     background-color: #F1F0F0;
@@ -36,11 +35,16 @@ a{
     display: flex;
     justify-content: center;
 }
+#first{
+    transition: 3s;
+}
 .left_rect{
     height: 60px;
     width: 270px;
     border: #999999 solid 2px;
     background-color: white;
+
+    padding-left: 30px;
 }
 .right_rect{
     height: 60px;
@@ -55,6 +59,8 @@ a{
     margin-left: 15px;
     transition: 0.2s;
 
+    font-size: 15px;
+    font-weight: 300;
 }
 .right_rect:hover{
     background-color: black;
@@ -74,13 +80,13 @@ a{
     justify-content: center;
     align-items: center;
     margin: 30px 5px;
-    transition: 0.2s;
+    transition: 0.5s;
 
 }
 .icons .fab:hover{
     background-color: white;
     color: black;
-    border: black solid 1px;
+    border: black solid 2px;
 }
 
 .copyright{

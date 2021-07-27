@@ -43,7 +43,8 @@
         <li><a href="#">Как читать</a></li>
         <li><a href="#">Подробности</a></li> -->
         <!-- <li><a href="https://t.me/tenpages_bot">Присоединиться</a></li> -->
-        <a class="li" href="https://t.me/tenpages_bot">Записаться</a>
+        <!-- <a class="li" href="https://t.me/tenpages_bot">Записаться</a> -->
+        <a class="li" href="#sixth">Записаться</a>
     <!-- </ul> -->
     </header>
 
@@ -54,10 +55,12 @@
 
         <!-- <button><a href="https://t.me/tenpages_bot">Записаться</a></button> -->
         <a href="https://t.me/tenpages_bot"><button>Записаться</button></a>
+        <!-- <a href="#first"><button>Записаться</button></a> -->
     </div>
 
 </div>
-<div class="second">
+<!-- <div class="second"> -->
+    <div id="first" class="second">
     <!-- <h1>Кто я</h1> -->
     <div class="stuff">
         <div class="left">
@@ -73,7 +76,8 @@
             <h3>В конце концов, я нашла комфортную для себя форму. Делать то, что люблю и так, как я хочу. А я люблю читать. Вытаскивать интересные идеи из книги, перекладывать на жизнь, раскапывать смыслы. А еще превращать сложные мысли в простые и понятные. Так что я решила просто делать это, и не одна, а с такими же как я, со всего мира, чтобы читать и открывать новое вместе. </h3>
         </div>
     </div>
-    <a class="insta" href="https://www.instagram.com/ishmurzina.aliya/">Мой инстаграм</a>
+    <!-- <a class="insta" href="https://www.instagram.com/ishmurzina.aliya/">Мой инстаграм</a> -->
+    <a title="тут бывает что-то интересное" class="insta" href="https://www.instagram.com/ishmurzina.aliya/">Мой инстаграм</a>
 
 </div>
 
@@ -144,14 +148,16 @@
 </div>
 
 
- <div class="sixth">
+ <div class="sixth" id="sixth">
     <div class="six_stuff">
 
         <h1>Присоединиться к клубу<br>
         активного чтения  "Десять страниц"</h1>
         <div class="stuff">
-            <div class="left_rect"></div>
-            <div class="right_rect">SIGN UP</div>
+            <!-- <div class="left_rect"></div> -->
+            <input class="left_rect" type="text" placeholder="+7 101 010 10 10"></input>
+            <a href="#"><div class="right_rect">SIGN UP</div></a>
+            <!-- <button type="submit" class="right_rect">SIGN UP</button> -->
         </div>
 
         <div class="icons">
@@ -159,7 +165,7 @@
             <i class="fab fa-telegram-plane"></i>
             <i class="fab fa-vk"></i>
         </div>
-        <div class="copyright">Copyright 2020 Rishat Studio | Site design handcrafted by Rishat/Nailya</div>
+        <div class="copyright">Copyright 2020 Rishat Studio | WebSite design handcrafted by Rishat/Nailya</div>
 
     </div>
  </div>
@@ -174,22 +180,35 @@
     });
 </script>
 <!--  --------------  -->
-<script src="picturefill.js"></script>
+
+
+
+
+
+<!--  -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('a[href*=#]').bind("click", function(e){
+var anchor = $(this);
+$('html, body').stop().animate({
+scrollTop: $(anchor.attr('href')).offset().top-60
+}, 1200);
+e.preventDefault();
+});
+     });
+    </script>
+<!-- <nav id="menu">
+    <ul>
+        <li><a href="#first">Ссылка на якорь 1</a></li>
+        <li><a href="#yak2">Ссылка на якорь 2</a></li>
+        <li><a href="#yak3">Ссылка на якорь 3</a></li>
+        <li><a href="#yak4">Ссылка на якорь 4</a></li>
+    </ul>
+</nav> -->
+<!--  -->
+
 </html>
-
-
-
-
-
-
-
-<span data-picture data-alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
-        <span data-src="small.jpg"></span>
-        <span data-src="medium.jpg" data-media="(min-width: 400px)"></span>
-        <span data-src="large.jpg"      data-media="(min-width: 800px)"></span>
-        <span data-src="extralarge.jpg" data-media="(min-width: 1000px)"></span>
-
-
-
 
 

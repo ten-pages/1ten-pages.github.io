@@ -9,12 +9,13 @@ a{
     text-decoration: none;
     color: black;
 }
+
 h1{
     font-family: 'Playfair Display', serif;
     color: #5A5857;
     margin-bottom: 30px;
     text-transform: uppercase;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 /* ============= */
 header{

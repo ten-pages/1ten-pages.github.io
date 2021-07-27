@@ -14,7 +14,7 @@ a{
 
 .fifth{
     background-color: #EEE8E5;
-    width: 100vw;
+    /* width: 100vw; */
     height: auto;
 }
 
@@ -121,7 +121,8 @@ a{
     display: flex;
     padding: 10px 20px;
     border-radius: 90px;
-    color: black;
+    /* color: black; */
+    color: white;
     justify-content: space-between;
     align-items: center;
     transition: 0.2s;

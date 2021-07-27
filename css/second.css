@@ -1,4 +1,10 @@
 /* dont need */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 a{
     text-decoration: none;
     color: black;
@@ -12,7 +18,8 @@ a{
 .second .stuff{
     display: flex;
     margin-left: auto;
-    padding-top: 270px;
+    /* padding-top: 270px; */
+    padding-top: 90px;
     max-width: 1160px;
     margin: auto;
 }
